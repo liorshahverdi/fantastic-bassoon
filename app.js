@@ -3,7 +3,7 @@ var app = angular.module('flapperNews', []);
 app.controller('MainCtrl',[
 	'$scope',
 	function($scope){
-		$scope.pageTitle = "Thinkster IO MEAN Stack App"
+		$scope.pageTitle = "Thinkster IO MEAN Stack App";
 
 		$scope.posts = [
 		  {title: 'post 1', upvotes: 5},
